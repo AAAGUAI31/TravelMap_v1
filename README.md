@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# 中国旅行地图 (China Travel Map)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一个交互式的中国旅行地图，可以标记已经去过的省份，并显示旅行统计信息。
 
-## Available Scripts
+## 功能特点
 
-In the project directory, you can run:
+- 显示完整的中国地图，包含所有省份
+- 点击省份可以标记已访问/未访问状态
+- 鼠标悬停显示省份名称
+- 显示访问统计信息
+- 显示已访问省份列表
+- 使用 localStorage 保存访问记录
+- 响应式设计，适配不同屏幕大小
 
-### `npm start`
+## 技术栈
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- Styled Components
+- GeoJSON 数据
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 安装和运行
 
-### `npm test`
+1. 克隆仓库：
+```bash
+git clone [your-repository-url]
+cd travel-map
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. 安装依赖：
+```bash
+npm install
+```
 
-### `npm run build`
+3. 启动开发服务器：
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. 打开浏览器访问 `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 使用说明
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 点击省份可以切换已访问/未访问状态
+- 鼠标悬停在省份上会显示省份名称
+- 页面底部显示访问统计和已访问省份列表
+- 访问记录会自动保存在浏览器中
 
-### `npm run eject`
+## 贡献
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+欢迎提交 Issue 和 Pull Request！
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 许可证
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT License
